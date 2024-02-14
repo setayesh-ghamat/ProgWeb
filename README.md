@@ -1,4 +1,4 @@
-projet_progWeb_GHAMAT
+**projet_progWeb_GHAMAT**
 
 Je retire votre attention: Veuillez utiliser les informations suivantes lors de connexion à la page de login et pour ajouter vos contenus préféres dans le site s'il vous plaît: Adresse mail: admin@gmail.com Le mot de passe: AsdfZxcv
 
