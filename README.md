@@ -1,21 +1,61 @@
-**projet_progWeb_GHAMAT**
+# 🎬 projet\_progWeb\_GHAMAT – Site de Présentation de Films
 
-Je retire votre attention: Veuillez utiliser les informations suivantes lors de connexion à la page de login et pour ajouter vos contenus préféres dans le site s'il vous plaît: Adresse mail: admin@gmail.com Le mot de passe: AsdfZxcv
+**Note importante**
+Veuillez utiliser les identifiants suivants pour accéder à la page de connexion et ajouter vos contenus favoris sur le site :
 
-Ce projet a été écrit dans l'IDE VS Code.
+* **Adresse e-mail** : `admin@gmail.com`
+* **Mot de passe** : `AsdfZxcv`
 
-Projet PROGRAMMATION_WEB2_FILM_PRESENTATION
 
-Ce site de présentation des films contient les parties suivantes en deux langues(Française et anglaise).
+## 📝 À propos du projet
 
-La partie de présentation des films sur la page d'acceuil. Cette page s'affiche différentes films en mettant en place les titres et des petites descriptions sur le sujet.
+Ce site web a été développé dans le cadre du projet **PROGRAMMATION\_WEB2\_FILM\_PRESENTATION** à l’aide de l’IDE **Visual Studio Code (VS Code)**. Il propose une plateforme bilingue (français et anglais) pour présenter des films à travers une interface simple et interactive.
 
-La partie "détail" qui se présente les informations complémentaires sur l'année de production du film, le directeur et le langage du film.
 
-La partie "A propos de" qui contient une brèfe présentation de la propriétaire du site.
+## 🌐 Fonctionnalités principales
 
-La partie "Administrateur" qui gère les différentes parties du site avec les donées dynamiques.
+Le site est structuré autour de plusieurs sections :
 
-Spécifications téchniques:
+### 1. **Page d’accueil**
 
-La base de donées du site s'est basée sur SQLITE. La partie IHM est ecrite avec PHP via les appels AJAX pour récuperer les donées depuis la base de donée. Les pages d'IHM sont implémentées en utilisant les techniques responsives. Toutes les donées entrant par l'admin sont vérifiées pour les caractères spéciales qui évitent des injections SQL.
+* Affiche une sélection de films.
+* Présente les **titres** et une **brève description** de chaque film.
+
+### 2. **Page de détails**
+
+* Affiche des informations complémentaires sur chaque film :
+
+  * **Année de production**
+  * **Réalisateur**
+  * **Langue du film**
+
+### 3. **Page "À propos"**
+
+* Contient une brève présentation du propriétaire du site.
+
+### 4. **Section Administrateur**
+
+* Interface dédiée à la gestion des contenus dynamiques du site.
+* Permet d’ajouter, modifier ou supprimer des films via une interface sécurisée.
+
+
+## 🛠️ Spécifications techniques
+
+* **Base de données** : SQLite
+* **Backend** : PHP, avec appels **AJAX** pour charger dynamiquement les données.
+* **Interface utilisateur (IHM)** :
+
+  * Développée en PHP.
+  * Design **responsive**, compatible avec tous types d’écrans (desktop, tablette, mobile).
+* **Sécurité** :
+
+  * Tous les champs de saisie sont vérifiés pour éviter les **caractères spéciaux**.
+  * Protection contre les **injections SQL** lors de la saisie des données par l’administrateur.
+
+
+## 📦 Déploiement & Utilisation
+
+1. Cloner le projet dans un serveur local (ex : XAMPP, WAMP).
+2. Assurez-vous que la base de données SQLite est accessible.
+3. Lancez le site via un navigateur en accédant à `index.php`.
+4. Connectez-vous en tant qu’administrateur pour gérer le contenu.
